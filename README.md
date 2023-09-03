@@ -54,6 +54,12 @@ wrk -t4 -c100 -d1m --timeout 30s <fastapi-endpoint>
 -   1 minute duration
 -   30 seconds timeout
 
+Run the benchmark script:
+
+```bash
+./benchmark.sh
+```
+
 ## Results
 
 ### Experiment: 1 worker 4 threads
