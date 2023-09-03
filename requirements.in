@@ -2,4 +2,3 @@ fastapi
 uvicorn[standard]
 loguru
 gunicorn
-httpx
