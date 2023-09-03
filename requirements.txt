@@ -20,6 +20,8 @@ click==8.1.7
     # via uvicorn
 fastapi==0.103.1
     # via -r requirements.in
+gunicorn==21.2.0
+    # via -r requirements.in
 h11==0.14.0
     # via
     #   httpcore
@@ -34,6 +36,10 @@ idna==3.4
     # via
     #   anyio
     #   httpx
+loguru==0.7.0
+    # via -r requirements.in
+packaging==23.1
+    # via gunicorn
 pydantic==2.3.0
     # via fastapi
 pydantic-core==2.6.3
